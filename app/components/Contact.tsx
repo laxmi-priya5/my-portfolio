@@ -13,7 +13,7 @@ export default function Contact(){
                <h3 className="font-bold text-2xl text-blue-900">My Social Links</h3>
                <a href="#"className="flex text-blue-600 underline"><span className="w-8"><img src='/linkedin-logo.webp' /></span >Linked In</a>
                <a href="#" className="flex text-blue-600 underline"><span className="w-7"><img src='/GitHub.png' /></span >GitHub</a>
-               <a href="#" className="flex text-blue-600 underline"><span className="w-7"><img src='/Envolop.avif' /></span >Email Me</a>
+               <a href="#" className="flex text-blue-600 underline"><span className="w-7"><img src='/Envolop.avif' /></span >Email me</a>
             </div>
             </div>
         </section>
