@@ -1,6 +1,6 @@
 export default function Skills(){
    return(
-    <section className="max-w-4xl mx-auto text-center px-6 py-20">
+    <section id="skills" className="max-w-4xl mx-auto text-center px-6 py-20">
         <h2 className='font-bold text-4xl mb-10'>Skills</h2>
         <p className="mb-6 text-gray-600 font-bold">Tecnologies I work with</p>
         <div className='grid gri-cols-1 sm:grid-cols-2 lg:grid-cols-4'>

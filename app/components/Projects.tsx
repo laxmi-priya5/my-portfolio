@@ -1,7 +1,7 @@
 export default function Projects(){
 
     return(
-        <section className="max-w-4xl mx-auto px-6 py-20">
+        <section id="projects" className="max-w-4xl mx-auto px-6 py-20">
           <h2 className="text-4xl text-center mb-5 font-bold ">Projects</h2>
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
