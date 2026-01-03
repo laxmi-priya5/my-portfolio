@@ -3,12 +3,14 @@ import About from './components/About'
 import Skills from "./components/Skills"
 import Projects from "./components/Projects"
 import Contact from "./components/Contact"
+import  Certificate  from "./components/Certificate"
 export default function Home(){
   return <div className="">
     <Hero/>
     <About/>
     <Skills/>
     <Projects/>
+    <Certificate/>
     <Contact/>
   </div>
 }

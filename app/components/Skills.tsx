@@ -10,8 +10,12 @@ export default function Skills(){
             <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">React</div>
             <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Next.js</div>
             <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Tailwind CSS</div>
+            <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Responsive design</div>
             <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Git</div>
             <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">GitHub</div>
+            <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Typescript</div>
+            <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Node.js(Basic)</div>
+            <div className="p-6 rounded-xl text-center shadow-sm hover:shadow-md">Express.js(Basic)</div>
          
         </div>
     </section>

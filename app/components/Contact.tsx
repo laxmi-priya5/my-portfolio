@@ -29,6 +29,8 @@ export default function Contact(){
     );
    };
     return(
+        <>
+        
         <section id="contact" className="max-w-4xl mx-auto px-6 py-20">
             <h2 className="text-3xl font-bold text-center mb-5">Contact Me</h2>
             <div className="grid grid-cols-1 sm:grid-cols-2">
@@ -40,8 +42,8 @@ export default function Contact(){
             </form>
             <div className="flex flex-col gap-4 items-center ">
                <h3 className="font-bold text-2xl text-blue-900">My Social Links</h3>
-               <a href="#"className="flex text-blue-600 underline"><span className="w-8"><img src='/linkedin-logo.webp' /></span >Linked In</a>
-               <a href="#" className="flex text-blue-600 underline"><span className="w-7"><img src='/GitHub.png' /></span >GitHub</a>
+               <a href="https://www.linkedin.com/in/laxmipriya-rout-9357aa309/ "className="flex text-blue-600 underline"><span className="w-8"><img src='/linkedin-logo.webp' /></span >Linked In</a>
+               <a href="https://github.com/laxmi-priya5" className="flex text-blue-600 underline"><span className="w-7"><img src='/GitHub.png' /></span >GitHub</a>
                <a href="mailto:laxmi.priyar2005@gmail.com" className="flex text-blue-600 underline"><span className="w-7"><img src='/Envolop.avif' /></span >Email me</a>
             </div>
             {messageSent && (
@@ -51,5 +53,6 @@ export default function Contact(){
       )}
             </div>
         </section>
+        </>
     )
 }

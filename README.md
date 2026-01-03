@@ -22,3 +22,8 @@ No page navigation
 No need for <Link>
 
 Both React and Next.js support it
+
+
+
+# folow steps o send email
+- npm install @emailjs/browser
