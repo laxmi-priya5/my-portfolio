@@ -11,16 +11,25 @@ export default function ProjectCard({ title, image, link, code }:ProjectCardProp
 
       <h2 className="font-bold mt-2">{title}</h2>
 
-      <div className="flex gap-2 mt-2">
+      <div className="flex gap-5 mt-4">
        
 
         <a
           href={code}
           target="_blank"
-          className="bg-blue-600 text-white px-3 py-1 rounded"
+          className="text-blue-400 underline underline-offset-1"
         >
           Code
         </a>
+        {
+          link && <a
+          href={link}
+          target="_blank"
+          className="text-blue-400 underline underline-offset-1"
+        >
+          View
+        </a>
+        }
       </div>
     </div>
   );

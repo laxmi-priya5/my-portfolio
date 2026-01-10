@@ -5,37 +5,51 @@ export default function Projects(){
             id: 1,
             title: "Food ordering App-Frontend Development",
             image: "/images.jpg",
-            link: "https://calm-chaja-4bf150.netlify.app/",
+            link: "",
             code:'https://github.com/laxmi-priya5/Swiggy-Clone-React-Learning-Project'
         },
         {
             id: 2,
             title: "Youtube-clone-Frontend Development",
             image: "/youtube.jpg",
-            link:'#',
+            link:'',
             code: "https://github.com/laxmi-priya5/youtube-clone",
         },
         {
             id: 3,
             title: "Netflix-Frontend Development",
             image: "/netflix.jpg",
-            link: "#",
-            code:'https://github.com/laxmi-priya5/Netflix-gpt'
+            link: "https://profound-blancmange-dbe67a.netlify.app/",
+            code:'https://github.com/laxmi-priya5/Netflix'
         },
         {
             id: 4,
             title: "e-Commerce-Frontend Development",
             image: "/flipkart.jpg",
-            link: "#",
+            link: "https://e-commerce-uq58.onrender.com/   ",
             code:'https://github.com/laxmi-priya5/e-commerce'
         },
-        // {
-        //     id: 5,
-        //     title: "Professional Tinder-Fullstack",
-        //     image: "/jobTinder.jpg",
-        //     link: "#",
-        //     code:'https://github.com/laxmi-priya5/e-commerce'
-        // },
+        {
+            id: 5,
+            title: "Interview-Tracker",
+            image: "/intTracker.jpg",
+            link: "https://track-interviewprep.onrender.com/",
+            code:'https://github.com/laxmi-priya5/track-InterviewPrep'
+        },
+        {
+            id: 6,
+            title: "Tic-Tac Play",
+            image: "/tic-tac-toe.jpg",
+            link: "https://track-interviewprep.onrender.com/",
+            code:'https://github.com/laxmi-priya5/track-InterviewPrep'
+        },
+        {
+            id: 7,
+            title: "Professional-Tinder",
+            image: "/tinder.png",
+            link: "https://dev-tinder-frontend-alpha.vercel.app/",
+            code:'https://github.com/laxmi-priya5/devTinder-Frontend'
+        },
     ];
     return(
         <section id="projects" className="max-w-4xl mx-auto px-6 py-20">
