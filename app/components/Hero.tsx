@@ -4,9 +4,14 @@ export default function Hero(){
         <section id="home" className="flex flex-col  items-center h-screen mt-7">
             <h1 className="text-5xl font-bold">Laxmipriya Rout</h1>
             <p className="text-xl text-gray-700 mt-4"  >Frontend Developer | react & Next.js</p>
-            <button className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-500">
-                Download CV
-            </button>
+            <a
+            href="/resume.pdf"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 px-6 py-3 bg-blue-600 text-white rounded hover:bg-blue-500 inline-block"
+            >
+            View CV
+            </a>
              <div className="mt-10">
             <Image
                 src="/laxmi.jpg"     // Put your image inside public folder
